@@ -146,8 +146,10 @@ To modify parameters like batch size, epochs, or learning rate, edit the corresp
 ---
 
 ## 🔥 **Sample Output**
+
+![image](https://github.com/user-attachments/assets/55bc6420-ac0d-4da2-82af-6036ea121020)
+
 ```
-![image](https://github.com/user-attachments/assets/862ea043-780b-43b3-b5dd-9328ee897346)
 
 🌱 Predicted Disease: Apple : Scab 
 🔬 Confidence: 89.13%  
