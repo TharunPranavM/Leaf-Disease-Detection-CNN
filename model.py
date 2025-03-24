@@ -51,7 +51,7 @@ def get_dataset_and_samplers(batch_size=64, num_workers=4):
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
 
-    dataset = datasets.ImageFolder(r"D:\projects\plant_disease_detection\cnn\Dataset\Plant_leave_diseases_dataset_without_augmentation", transform=transform)
+    dataset = datasets.ImageFolder("\Dataset\Plant_leave_diseases_dataset_without_augmentation", transform=transform)
     indices = list(range(len(dataset)))
     split = int(np.floor(0.85 * len(dataset)))
     validation_split = int(np.floor(0.70 * split))
